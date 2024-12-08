@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="app" id="app">
+                <h1 class="app__title">Task Manager</h1>
+                <div class="app__body">
+                    <form class="app__form form" id="appForm">
+                        <div class="form__heading">
+                            <input class="form__input" type="text" placeholder="Task name" id="titleInput">
+                            <button class="form__btn" type="submit" id="formButton">Add task</button>
+                        </div>
+                        <textarea class="form__input" type="text" placeholder="Task description" id="descriptionInput"></textarea>
+                        <div class="form__modificators" id="modificatorsContainer">
+                            <div class="form__element">
+                                <label>
+                                    Task state
+                                    <select name="state" id="taskStateSelect">
+                                        <option value="open" selected>open</option>
+                                        <option value="in-progress">in progress</option>
+                                        <option value="success">success</option>
+                                        <option value="fail">fail</option>
+                                        <option value="closed">closed</option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="app__filters" id="appFilters"></div>
+                    <ul class="app__items-list items-list" id="appItemsList"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
