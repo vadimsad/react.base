@@ -1,0 +1,44 @@
+.grid__cell {
+    width: calc(var(--cell-size) * 1px);
+    height: calc(var(--cell-size) * 1px);
+    border: 1px dashed black;
+    border-bottom-width: 0;
+    border-right-width: 0;
+}
+
+.grid__cell--origin {
+    position: relative;
+}
+
+.grid__cell--origin::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(var(--width) * (var(--cell-size) + 1) * 1px);
+    height: calc(var(--height) * (var(--cell-size) + 1) * 1px);
+    background-image: var(--imageUrl);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid__cell--rarity-1::after {
+    background-color: rgba(248, 213, 155, 0.7);
+}
+
+.grid__cell--rarity-2::after {
+    background-color: rgba(173, 214, 157, 0.7);
+}
+
+.grid__cell--rarity-3::after {
+    background-color: rgba(60, 150, 145, 0.7);
+}
+
+.grid__cell--rarity-4::after {
+    background-color: rgba(50, 74, 110, 0.7);
+}
+
+.grid__cell--rarity-5::after {
+    background-color: rgba(209, 71, 69, 0.7);
+}

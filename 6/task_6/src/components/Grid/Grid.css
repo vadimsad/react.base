@@ -1,0 +1,43 @@
+.grid {
+    counter-reset: row-counter -1;
+}
+
+.grid__row {
+    position: relative;
+    display: flex;
+    border-right-width: 1px;
+    border-right-color: black;
+    border-right-style: dashed;
+    counter-increment: row-counter;
+}
+
+.grid__row:first-of-type {
+    counter-reset: col-counter -1;
+}
+
+.grid__row:first-of-type .grid__cell {
+    position: relative;
+    counter-increment: col-counter;
+}
+
+.grid__row:first-of-type .grid__cell::before {
+    position: absolute;
+    content: counter(col-counter);
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.grid__row:last-of-type {
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: dashed;
+}
+
+.grid__row::before {
+    position: absolute;
+    content: counter(row-counter);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}

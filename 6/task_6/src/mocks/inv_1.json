@@ -1,0 +1,350 @@
+[
+    {
+        "id": 1,
+        "name": "Dragon Slayer",
+        "layout": [
+            [1, 1],
+            [1, 1],
+            [1, 1],
+            [1, 1],
+            [1, 1],
+            [1, 1]
+        ],
+        "position": [0, 0],
+        "rarity": 4,
+        "image": "/images/dragonslayer.png"
+    },
+    {
+        "id": 2,
+        "name": "Grenade Launcher",
+        "layout": [
+            [1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1]
+        ],
+        "position": [0, 2],
+        "rarity": 3,
+        "image": "/images/pussydestroyer.png"
+    },
+    {
+        "id": 3,
+        "name": "Barrels",
+        "layout": [
+            [1, 1],
+            [1, 1]
+        ],
+        "position": [3, 2],
+        "rarity": 1,
+        "image": "/images/barrels.png"
+    },
+    {
+        "id": 3,
+        "name": "Barrels",
+        "layout": [
+            [1, 1],
+            [1, 1]
+        ],
+        "position": [4, 6],
+        "rarity": 1,
+        "image": "/images/barrels.png"
+    },
+    {
+        "id": 3,
+        "name": "Barrels",
+        "layout": [
+            [1, 1],
+            [1, 1]
+        ],
+        "position": [4, 8],
+        "rarity": 1,
+        "image": "/images/barrels.png"
+    },
+    {
+        "id": 4,
+        "name": "Floppa",
+        "layout": [
+            [1, 1, 1],
+            [1, 1, 1],
+            [1, 1, 1]
+        ],
+        "position": [7, 7],
+        "rarity": 5,
+        "image": "/images/floppa.png"
+    },
+    {
+        "id": 5,
+        "name": "Cutlet",
+        "layout": [
+            [1, 1]
+        ],
+        "position": [6, 5],
+        "rarity": 2,
+        "image": "/images/cutlet.png"
+    },
+    {
+        "id": 5,
+        "name": "Cutlet",
+        "layout": [
+            [1, 1]
+        ],
+        "position": [7, 5],
+        "rarity": 2,
+        "image": "/images/cutlet.png"
+    },
+    {
+        "id": 5,
+        "name": "Cutlet",
+        "layout": [
+            [1, 1]
+        ],
+        "position": [8, 5],
+        "rarity": 2,
+        "image": "/images/cutlet.png"
+    },
+    {
+        "id": 5,
+        "name": "Cutlet",
+        "layout": [
+            [1, 1]
+        ],
+        "position": [9, 5],
+        "rarity": 2,
+        "image": "/images/cutlet.png"
+    },
+    {
+        "id": 6,
+        "name": "Golub",
+        "layout": [
+            [1]
+        ],
+        "position": [1, 7],
+        "rarity": 3,
+        "image": "/images/golub.png"
+    },
+    {
+        "id": 6,
+        "name": "Golub",
+        "layout": [
+            [1]
+        ],
+        "position": [2, 7],
+        "rarity": 3,
+        "image": "/images/golub.png"
+    },
+    {
+        "id": 6,
+        "name": "Golub",
+        "layout": [
+            [1]
+        ],
+        "position": [3, 7],
+        "rarity": 3,
+        "image": "/images/golub.png"
+    },
+    {
+        "id": 6,
+        "name": "Golub",
+        "layout": [
+            [1]
+        ],
+        "position": [1, 8],
+        "rarity": 3,
+        "image": "/images/golub.png"
+    },
+    {
+        "id": 6,
+        "name": "Golub",
+        "layout": [
+            [1]
+        ],
+        "position": [2, 8],
+        "rarity": 3,
+        "image": "/images/golub.png"
+    },
+    {
+        "id": 6,
+        "name": "Golub",
+        "layout": [
+            [1]
+        ],
+        "position": [3, 8],
+        "rarity": 3,
+        "image": "/images/golub.png"
+    },
+    {
+        "id": 6,
+        "name": "Golub",
+        "layout": [
+            [1]
+        ],
+        "position": [1, 9],
+        "rarity": 3,
+        "image": "/images/golub.png"
+    },
+    {
+        "id": 6,
+        "name": "Golub",
+        "layout": [
+            [1]
+        ],
+        "position": [2, 9],
+        "rarity": 3,
+        "image": "/images/golub.png"
+    },
+    {
+        "id": 6,
+        "name": "Golub",
+        "layout": [
+            [1]
+        ],
+        "position": [3, 9],
+        "rarity": 3,
+        "image": "/images/golub.png"
+    },
+    {
+        "id": 6,
+        "name": "Golub",
+        "layout": [
+            [1]
+        ],
+        "position": [3, 6],
+        "rarity": 3,
+        "image": "/images/golub.png"
+    },
+    {
+        "id": 7,
+        "name": "Rabbit",
+        "layout": [
+            [1, 1],
+            [1, 1],
+            [1, 1]
+        ],
+        "position": [3, 4],
+        "rarity": 1,
+        "image": "/images/rabbit.png"
+    },
+    {
+        "id": 8,
+        "name": "Plane",
+        "layout": [
+            [1, 1, 1, 1],
+            [1, 1, 1, 1]
+        ],
+        "position": [6, 0],
+        "rarity": 1,
+        "image": "/images/plane.png"
+    },
+    {
+        "id": 8,
+        "name": "Plane",
+        "layout": [
+            [1, 1, 1, 1],
+            [1, 1, 1, 1]
+        ],
+        "position": [8, 0],
+        "rarity": 1,
+        "image": "/images/plane.png"
+    },
+    {
+        "id": 9,
+        "name": "Rock",
+        "layout": [
+            [1]
+        ],
+        "position": [0, 7],
+        "rarity": 1,
+        "image": "/images/rock.png"
+    },
+    {
+        "id": 9,
+        "name": "Rock",
+        "layout": [
+            [1]
+        ],
+        "position": [0, 8],
+        "rarity": 1,
+        "image": "/images/rock.png"
+    },
+    {
+        "id": 9,
+        "name": "Rock",
+        "layout": [
+            [1]
+        ],
+        "position": [0, 9],
+        "rarity": 1,
+        "image": "/images/rock.png"
+    },
+    {
+        "id": 9,
+        "name": "Rock",
+        "layout": [
+            [1]
+        ],
+        "position": [5, 2],
+        "rarity": 1,
+        "image": "/images/rock.png"
+    },
+    {
+        "id": 9,
+        "name": "Rock",
+        "layout": [
+            [1]
+        ],
+        "position": [5, 3],
+        "rarity": 1,
+        "image": "/images/rock.png"
+    },
+    {
+        "id": 9,
+        "name": "Rock",
+        "layout": [
+            [1]
+        ],
+        "position": [6, 7],
+        "rarity": 1,
+        "image": "/images/rock.png"
+    },
+    {
+        "id": 9,
+        "name": "Rock",
+        "layout": [
+            [1]
+        ],
+        "position": [6, 8],
+        "rarity": 1,
+        "image": "/images/rock.png"
+    },
+    {
+        "id": 9,
+        "name": "Rock",
+        "layout": [
+            [1]
+        ],
+        "position": [6, 9],
+        "rarity": 1,
+        "image": "/images/rock.png"
+    },
+    {
+        "id": 10,
+        "name": "Cat",
+        "layout": [
+            [1],
+            [1]
+        ],
+        "position": [6, 4],
+        "rarity": 3,
+        "image": "/images/cat.png"
+    },
+    {
+        "id": 10,
+        "name": "Cat",
+        "layout": [
+            [1],
+            [1]
+        ],
+        "position": [8, 4],
+        "rarity": 3,
+        "image": "/images/cat.png"
+    }
+]
